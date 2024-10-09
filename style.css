@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{display: flex; align-items: center; flex-wrap: wrap; background-color: teal; color: white; padding: 10px; gap: 20px;}
+
+nav > img{width: 50px;}
+
+#add{display: none;}
+
+#crud button{padding: 8px; border-radius: 5px; color: white; font-weight: 800; font-size: 16px;}
+

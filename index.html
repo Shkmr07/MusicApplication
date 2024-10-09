@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+
+        <nav>
+            <img src="./speaker.png" alt="MusicLogo">
+            <h2>Music Library</h2>
+        </nav>
+
+        <div id="photo"></div>
+        <div id="add">
+            <form id="from">
+                <input type="text" id="title" placeholder="Title">
+                <input type="text" id="artist" placeholder="Artist">
+                <input type="text" id="duration" placeholder="duration">
+                <input type="text" id="genre" placeholder="Genre">
+                <input type="submit" id="submit">
+            </form>
+        </div>
+        <div id="crud">
+            <button id="Create" onclick="createBtn()" style="background-color: rgb(96, 215, 96);">Create</button>
+            <button id="Update" style="background-color: rgb(162, 162, 239);">Update</button>
+            <button id="Delete" style="background-color: rgb(235, 70, 70);">Delete</button>
+        </div>
+    </div>
+</body>
+</html>
