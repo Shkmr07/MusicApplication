@@ -10,7 +10,6 @@ nav > img{width: 50px;}
 
 #add{display: none; margin-bottom: 20px;}
 
-#crud button{padding: 8px; border-radius: 5px; color: white; font-weight: 800; font-size: 16px;}
 
 #from{display: flex; flex-direction: column;gap: 10px;}
 
@@ -19,3 +18,12 @@ nav > img{width: 50px;}
 #from > input:last-child:hover{background-color: rgb(35, 201, 35);color: white;}
 
 #photo{margin-bottom: 30px;}
+
+#cards > div{display: flex; flex-direction: column; gap: 10px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; padding: 10px; border-radius: 5px;}
+
+#cards{display: flex; align-items: center; flex-wrap: wrap; gap: 10px;}
+
+#cards > div button{padding: 5px; border-radius: 5px; font-weight: bold;}
+
+#cards > div > button:nth-of-type(1):hover{background-color: rgb(49, 196, 49); color: white;}
+#cards > div > button:nth-of-type(2):hover{background-color: rgb(229, 64, 64); color: white;}
